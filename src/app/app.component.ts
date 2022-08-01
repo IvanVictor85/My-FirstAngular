@@ -13,7 +13,7 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit() {
-    let interval: number = setInterval(() => {
+    let interval = setInterval(() => {
       this.count++;
       if(this.count === 10) {
         clearInterval(interval);
